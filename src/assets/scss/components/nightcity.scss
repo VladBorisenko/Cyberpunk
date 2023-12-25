@@ -1,0 +1,44 @@
+.nightsity-main{
+  .nightsity{
+    margin-top: 70px;
+    h2{
+      font-family: 'Archangelsk';
+      font-size: 62px;
+      font-weight: 400;
+      line-height: 63.3px;
+      color: black;
+    }
+    p{
+      font-family: 'Roboto';
+      color: rgba(119, 119, 119, 1);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 34px;
+      margin-top: 25px;
+      span{
+        font-family: 'Roboto';
+        color: rgba(82, 190, 220, 1);
+        font-weight: 700;
+      }
+    }
+    .gallary{
+      margin-bottom: 70px;
+      margin-top: 90px;
+      display: flex;
+      justify-content: space-between;
+      gap: 32px;
+      .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .right{
+        img{
+          height: 100%;
+          max-width: 788px;
+        }
+        
+      }
+    }
+  }
+}

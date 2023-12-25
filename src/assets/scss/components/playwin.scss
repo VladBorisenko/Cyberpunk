@@ -1,0 +1,141 @@
+.playwin{
+  background-color: black;
+  padding-bottom: 70px;
+  img{
+    max-width: 100%;
+  }
+  .container{
+    .title{
+      padding-top: 8px;
+      display: flex;
+      gap: 32px;
+      align-items: center;
+      h2{
+        margin-top: 44px;
+        font-family: 'Archangelsk';
+        color: white;
+        font-size: 62px;
+        font-weight: 400px;
+      }
+    }
+    p{
+      margin-top: 25px;
+      font-family: 'Roboto';
+      color: white;
+      font-size: 18px;
+      line-height: 34px;
+      font-weight: 400;
+      span{
+        color: rgba(82, 190, 220, 1);
+        font-weight: 700;
+      }
+    }
+    .main-content{
+      display: flex;
+      gap: 33px;
+      .blank{
+        margin-top: 117px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        .name{
+          background: none;
+          border: none;
+          border-bottom: 1px solid white;
+          width: 458px;
+          font-family: 'Roboto';
+          color: white;
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: 300;
+          height: 40px;
+          padding-bottom: 11px;
+          padding-left: 0;
+
+        }
+        
+        .email{
+          background: none;
+          border: none;
+          border-bottom: 1px solid white;
+          font-family: 'Roboto';
+          color: white;
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: 300;
+          padding-bottom: 11px;
+          padding-left: 0;
+        }
+        .add-screen{
+          width: 458px;
+          height: 120px;
+          border: 2px dashed white;
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          gap: 0;
+          align-items: center;
+          
+
+          button{
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            border: none;
+            border-bottom: 1px solid white;
+            font-size: 18px;
+            font-family: 'Roboto';
+            font-weight: 300;
+            padding: 0;
+            line-height: 17px;
+            
+          }
+          p{
+            color: white;
+            font-size: 12px;
+            font-family: 'Roboto';
+            font-weight: 300;
+            line-height: 0;
+          }
+        }
+        .btn{
+          background: rgba(248, 242, 0, 1);
+          color: rgb(0, 0, 0);
+          font-size: 18px;
+          font-family: 'Roboto';
+          font-weight: 700;
+          line-height: 21px;
+          padding: 18px 49px;
+          align-self: flex-start;
+          border: none;
+          margin-bottom: 17px;
+        }
+        
+      }
+      form{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        input{
+          appearance: checkbox;
+          margin: 0;
+        }
+        
+        label{
+          color: white;
+          font-size: 12px;
+          font-family: 'Roboto';
+          font-weight: 300;
+          line-height: 14px;
+        }
+      }
+      .gifts{
+        padding-top: 50px;
+      }
+    }
+  }
+}
+
+
+
+

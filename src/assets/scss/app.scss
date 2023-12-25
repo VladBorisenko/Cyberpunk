@@ -1,3 +1,20 @@
+@import "./fonts.scss";
+@import "./reset/reset.scss";
+@import "./components/header.scss";
+@import "./components/nightcity.scss";
+@import "./components/playwin.scss";
+@import "./components/hp.scss";
+@import "./components/buy.scss";
+@import "./components/footer.scss";
+//font-family: 'Roboto';
+//font-family: 'Archangelsk';
+
+
+
 html{
-    background: red;
+    .container{
+        width: 1280px;
+        margin: 0 auto;
+        height: 100%;
+    }
 }

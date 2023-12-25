@@ -1,0 +1,102 @@
+.buy{
+  display: flex;
+  width: 100%;
+  .left-sec{
+    background-color: black;
+    width: 100%;
+    padding-left: 23px;
+    padding-top: 75px;
+    
+    .container{
+      display: flex;
+      flex-direction: column;
+      gap: 23px;
+      width: 640px;
+      margin: 0;
+      padding-left: 30px;
+      h2{
+        color: white;
+        font-family: 'Archangelsk';
+        font-size: 62px;
+        font-weight: 400;
+        line-height: 63px;
+      }
+      .set{
+        padding-left: 3px;
+        gap: 19px;
+        display: flex;
+        flex-direction: column;
+        h3{
+          color: rgba(82, 190, 220, 1);
+          font-family: 'Roboto';
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 28px;
+        }
+        .disc{
+          display: flex;
+          align-items: center;
+          gap: 11px;
+          p{
+            color: white;
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;
+          }
+        }
+        .codes{
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          p{
+            color: white;
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;
+          }
+        }
+        .pics{
+          display: flex;
+          align-items: center;
+          gap: 11px;
+          p{
+            color: white;
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;
+          }
+        }
+      }
+      .platforms{
+        margin-top: 50px;
+        h3{
+          color: rgba(82, 190, 220, 1);
+          font-family: 'Roboto';
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 28px;
+          margin-bottom: 25px;
+        }
+        .logos{
+
+          width: 319px;
+          display: flex;
+          flex-direction: column;
+          gap: 47px;
+          .top-line{
+            display: flex;
+            justify-content: space-between;
+          }
+          .bottom-line{
+            display: flex;
+            justify-content: space-between;
+          }
+          
+        }
+      }
+    }
+  }
+}
